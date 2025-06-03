@@ -17,9 +17,9 @@
 #include <vector>                  
 
 //================ PIN DEFINITIONS ================
-#define SD_CS_PIN 4     
-#define TEXT_LED_PIN 2  
-#define GIF_LED_PIN 25   
+#define SD_CS_PIN D12      // SD Card Chip Select pin (GPIO4)
+#define TEXT_LED_PIN D9  // Data pin for text matrix (GPIO2)
+#define GIF_LED_PIN D2   // Data pin for GIF matrix (GPIO25)
 
 // if your esp board deos not have a mosi miso clk pin defined then you can use VSPI
 
