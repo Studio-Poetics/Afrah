@@ -21,9 +21,9 @@
 #include <SD.h>                    // SD card library
 
 //================ PIN DEFINITIONS ================
-#define SD_CS_PIN 4      // SD Card Chip Select pin (GPIO5)
-#define TEXT_LED_PIN 2  // Data pin for text matrix (GPIO25)
-#define GIF_LED_PIN 25   // Data pin for GIF matrix (GPIO27)
+#define SD_CS_PIN D12      // SD Card Chip Select pin (GPIO5)
+#define TEXT_LED_PIN D9  // Data pin for text matrix (GPIO25)
+#define GIF_LED_PIN D2   // Data pin for GIF matrix (GPIO27)
 
 //================ MATRIX CONFIGURATION ================
 #define GIF_MATRIX_WIDTH 16    // Width of the GIF matrix in pixels
