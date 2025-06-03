@@ -41,9 +41,8 @@ A dual-display system using ESP32 to show synchronized animated GIFs on a 16x16 
 | **Resistors** | 470Ω | 3 | Data line protection |
 
 ### Optional Components
-- **Level Shifter** (3.3V→5V) - Recommended for reliable data transmission
-- **Breadboard/PCB** - For prototyping
-- **Enclosure** - Weather protection for permanent installations
+- **Level Shifter** (3.3V→5V) - For reliable data transmission
+- **Enclosure** - 3D Printed for permanent installations
 
 ### LED Matrix Specifications
 ```
