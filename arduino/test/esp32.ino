@@ -17,13 +17,15 @@
 #include <vector>                  
 
 //================ PIN DEFINITIONS ================
-#define SD_CS_PIN 21     
-#define TEXT_LED_PIN 17  
-#define GIF_LED_PIN 18   
+#define SD_CS_PIN 4     
+#define TEXT_LED_PIN 2  
+#define GIF_LED_PIN 25   
 
-#define SD_MOSI_PIN 11   
-#define SD_MISO_PIN 13   
-#define SD_CLK_PIN 12    
+// if your esp board deos not have a mosi miso clk pin defined then you can use VSPI
+
+// #define SD_MOSI_PIN 11   
+// #define SD_MISO_PIN 13   
+// #define SD_CLK_PIN 12    
 
 //================ MATRIX CONFIGURATION ================
 #define GIF_MATRIX_WIDTH 16    
