@@ -105,8 +105,10 @@ Power Supply (5V/10A+)
    ```
    File → Preferences → Additional Board Manager URLs:
    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   http://download.dfrobot.top/FireBeetle/package_DFRobot_index.json
    
    Tools → Board → Boards Manager → Search "ESP32" → Install
+   Tools → Board → Boards Manager → Search "DFRobot ESP32 Arduino" → Install
    ```
 
 2. **Install Required Libraries**
