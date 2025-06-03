@@ -59,9 +59,9 @@ Typical Usage: ~30% brightness = 10A actual consumption
 ```
 ESP32 Pin  →  Component
 ─────────────────────────
-GPIO 18    →  GIF Matrix Data In
-GPIO 17    →  Text Matrix Data In
-GPIO 21    →  SD Card CS (Chip Select)
+GPIO 21    →  GIF Matrix Data In
+GPIO 2    →  Text Matrix Data In
+GPIO 4    →  SD Card CS (Chip Select)
 GPIO 11    →  SD Card MOSI
 GPIO 13    →  SD Card MISO  
 GPIO 12    →  SD Card CLK
@@ -76,9 +76,9 @@ GND        →  LED Matrix Power (-) & SD Card GND
                  ┌─────────┐
                  │    5V   ├─── Power Rail (+5V)
                  │   GND   ├─── Ground Rail
-                 │  GPIO18 ├─── 470Ω ─── GIF Matrix Data
-                 │  GPIO17 ├─── 470Ω ─── Text Matrix Data
-                 │  GPIO21 ├─── SD Card CS
+                 │  GPIO21 ├─── 470Ω ─── GIF Matrix Data
+                 │  GPIO2 ├─── 470Ω ─── Text Matrix Data
+                 │  GPIO4 ├─── SD Card CS
                  │  GPIO11 ├─── SD Card MOSI
                  │  GPIO13 ├─── SD Card MISO
                  │  GPIO12 ├─── SD Card CLK
@@ -459,49 +459,6 @@ int getGifIndex(int row, int col) {
 // Initialize additional NeoMatrix objects
 ```
 
-### Network Control
-
-Add WiFi capability:
-```cpp
-#include <WiFi.h>
-#include <WebServer.h>
-// Create web interface for remote control
-```
-
-### Real-time Content Updates
-
-```cpp
-// Add OTA (Over-The-Air) updates
-// Implement web-based content upload
-// Add schedule-based content switching
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how to help:
-
-### Development Setup
-```bash
-git clone https://github.com/yourusername/esp32-led-matrix-display
-cd esp32-led-matrix-display
-# Make your changes
-git commit -m "Description of changes"
-git push origin feature-branch
-# Create pull request
-```
-
-### Areas for Contribution
-- **Hardware**: New matrix layouts, enclosures
-- **Software**: Web interface, mobile app, new effects
-- **Documentation**: Tutorials, translations, videos
-- **Testing**: Different ESP32 variants, LED types
-
-### Bug Reports
-Please include:
-- Hardware setup details
-- Serial monitor output
-- Steps to reproduce
-- Expected vs actual behavior
 
 ## 📄 License
 
@@ -511,7 +468,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Adafruit** - For excellent NeoPixel libraries
 - **ESP32 Community** - For Arduino core support
-- **Contributors** - Everyone who helped test and improve this project
 
 ## 📚 Additional Resources
 
