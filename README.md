@@ -472,6 +472,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📚 Additional Resources
 
 ### Learning Resources
+- [DFRobot FireBeetle ESP32-E board Wiki](https://wiki.dfrobot.com/FireBeetle_Board_ESP32_E_SKU_DFR0654)
 - [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp32/)
 - [NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 - [Arduino ESP32 Reference](https://github.com/espressif/arduino-esp32)
