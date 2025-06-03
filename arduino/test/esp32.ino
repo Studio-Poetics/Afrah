@@ -119,8 +119,8 @@ void initializeMatrices() {
 bool initializeSDCard() {
   Serial.print("Initializing SD card...");
   
-  // Configure SPI with explicit pins
-  SPI.begin(SD_CLK_PIN, SD_MISO_PIN, SD_MOSI_PIN, SD_CS_PIN);
+  // Configure SPI for Firebeetle ESP32 E board
+  SPI.begin();
   delay(100);
   
   // Try multiple times to initialize SD card
